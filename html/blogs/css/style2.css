@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+body{
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(95, 101, 255, 1));
+    width: 100%;
+    height: 100vh;
+}
+.logo-word{
+    display: flex;
+    margin: 200px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 64px;
+}
+.lines{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.line1{
+    width: 2px;
+    height: 500px;
+    background-color: black;
+    margin-left: 400px;
+}
+.line2{
+    width: 2px;
+    height: 500px;
+    background-color: black;
+    margin-right: 500px;
+} 
+.lines h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 64px;
+    justify-content: center;
+    margin-top: 200px;
+}
+.photos img{
+    position: relative;
+    top: -100px;
+    left: -300px;
+    object-fit: cover;
+    transition: 0.3s;
+}
+.photos img:hover{
+    cursor: pointer;
+}
+.photos img:active{
+    transform: scale(0.8);
+}
