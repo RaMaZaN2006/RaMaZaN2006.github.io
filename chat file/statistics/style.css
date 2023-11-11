@@ -1,4 +1,15 @@
+* {
+    animation: fadeIn 1.5s ease-in-out forwards;
+}
 
+@keyframes fadeIn {
+    from {
+        opacity: 0; /* Начальная прозрачность 0 */
+    }
+    to {
+        opacity: 1; /* Конечная прозрачность 1 */
+    }
+}
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
