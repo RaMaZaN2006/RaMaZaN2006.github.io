@@ -1,5 +1,5 @@
 * {
-    background-color: #060616;
+    background-color: #3535ac;
 }
 h1 {
     color: white;
@@ -33,18 +33,31 @@ textarea {
 
 input:focus-within {
     outline: none;
-    border-color: #5bd183;
-    border-width: 3px;
+    border-color: rgb(30, 33, 33);
+    border-width: 8px;
 }
 
 textarea:focus-within {
     outline: none;
-    border-color: #5bd183;
-    border-width: 3px;
+    border-color: rgb(95, 101, 101);
+    border-width: 6px;
 }
 
-button {
-    background-color: #5bd183;
+.btn1 {
+    background-color: rgb(22, 150, 159);
+    border-radius: 10px;
+    border-color: black;
+    font-size: 22px;
+    padding: 20px 20px;
+    margin-left:  100px;
+    text-decoration: none;
+    color: black;
+    
+    
+}
+
+.btn2 {
+    background-color: rgb(22, 150, 159);
     border-radius: 20px;
     border-color: black;
     font-size: 22px;
@@ -57,5 +70,5 @@ button {
 button:hover {
     opacity: 80%;
     cursor: pointer;
-    
+
 }
