@@ -33,5 +33,29 @@ textarea {
 
 input:focus-within {
     outline: none;
-    border-color: #5bd183
+    border-color: #5bd183;
+    border-width: 3px;
+}
+
+textarea:focus-within {
+    outline: none;
+    border-color: #5bd183;
+    border-width: 3px;
+}
+
+button {
+    background-color: #5bd183;
+    border-radius: 20px;
+    border-color: black;
+    font-size: 22px;
+    padding: 10px 18px;
+    text-align: center;
+    display: flex;
+    margin: auto;
+}
+
+button:hover {
+    opacity: 80%;
+    cursor: pointer;
+    
 }
