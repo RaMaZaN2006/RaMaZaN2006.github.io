@@ -293,13 +293,14 @@ hr {
 
 /* footer section */
 footer {
-  background: url('../images/footer-bg.jpg') 50% 0 repeat-y fixed;
+  background: url('../images/JIHC_Footer.JPG') 50% 0 repeat-y fixed;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center;
   color: #ffffff;
   padding-top: 80px;
   padding-bottom: 80px;
+  opacity:80%;
 }
 footer h2 {
   padding-bottom: 14px;
