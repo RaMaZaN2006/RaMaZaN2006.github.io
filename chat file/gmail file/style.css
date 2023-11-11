@@ -1,6 +1,19 @@
 * {
     background-color: #3535ac;
+    background-color: #3535ac;
+    opacity: 0; /* Устанавливаем начальную прозрачность 0 */
+    animation: fadeIn 1.5s ease-in-out forwards; /* Анимация появления */
 }
+
+@keyframes fadeIn {
+    from {
+        opacity: 0; /* Начальная прозрачность 0 */
+    }
+    to {
+        opacity: 1; /* Конечная прозрачность 1 */
+    }
+}
+
 h1 {
     color: white;
     padding-top: 10px;
@@ -43,6 +56,8 @@ textarea:focus-within {
     border-width: 6px;
 }
 
+
+
 .btn1 {
     background-color: rgb(22, 150, 159);
     border-radius: 10px;
@@ -57,7 +72,7 @@ textarea:focus-within {
 }
 
 .btn2 {
-    background-color: rgb(22, 150, 159);
+    background-color: rgb(49, 191, 196);
     border-radius: 20px;
     border-color: black;
     font-size: 22px;
@@ -69,6 +84,18 @@ textarea:focus-within {
 
 button:hover {
     opacity: 80%;
+    background-color: aliceblue;
+    cursor: pointer;
+    font-size: 30px;
+    transition: 0.5s;
+
+}
+
+.btn1:hover {
+    opacity: 88%;
+    font-size: 30px;
+    transition: 0.5s;
+    background-color: aliceblue;
     cursor: pointer;
 
 }
