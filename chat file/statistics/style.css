@@ -1,0 +1,93 @@
+* {
+    animation: fadeIn 1.5s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0; /* Начальная прозрачность 0 */
+    }
+    to {
+        opacity: 1; /* Конечная прозрачность 1 */
+    }
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3535ac;
+    background-color: #3535ac;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.btn1 {
+    background-color: rgb(22, 150, 159);
+    border-radius: 10px;
+    border-color: black;
+    font-size: 22px;
+    padding: 20px 20px;
+    margin-left:  100px;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.btn1:hover {
+    opacity: 88%;
+    font-size: 30px;
+    transition: 0.5s;
+    background-color: aliceblue;
+    cursor: pointer;
+
+}
+
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px 8px 0 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+section {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #3498db;
+    color: #fff;
+}
