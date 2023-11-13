@@ -4,10 +4,34 @@
 
 @keyframes fadeIn {
     from {
-        opacity: 0; /* Начальная прозрачность 0 */
+        opacity: 0;
     }
     to {
-        opacity: 1; /* Конечная прозрачность 1 */
+        opacity: 1;
+    }
+}
+
+@keyframes floatIn {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes scaleButton {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.2);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
     }
 }
 
@@ -15,48 +39,41 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #3535ac;
-    background-color: #3535ac;
+    background-color: #3535acaf;
 }
 
-.container {
-    max-width: 800px;
+.container2 {
+    background: linear-gradient(rgba(148, 87, 235, 0.7), rgba(92, 29, 180, 0.7)), url('../../Kahatoon/images/college\ gradu-grady.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 24px;
+    max-width: 1200px;
     margin: 0 auto;
     background-color: #fff;
-    padding: 100px;
+    padding: 30px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     margin-top: 20px;
+    animation: floatIn 1.5s ease-in-out forwards;
 }
-
-.btn1 {
-    background-color: rgb(22, 150, 159);
-    border-radius: 10px;
-    border-color: black;
-    font-size: 22px;
-    padding: 20px 20px;
-    margin-left:  100px;
-    text-decoration: none;
-    color: black;
-    
-}
-
-.btn1:hover {
-    opacity: 88%;
-    font-size: 30px;
-    transition: 0.5s;
-    background-color: aliceblue;
-    cursor: pointer;
-
-}
-
 
 header {
-    background-color: #3498db;
+    background-color: #3498dbb7;
     color: #fff;
     text-align: center;
     padding: 10px;
     border-radius: 8px 8px 0 0;
+    animation: floatIn 1.5s ease-in-out forwards;
+}
+
+h1, h2, li, tr, table {
+    animation: floatIn 1.5s ease-in-out forwards;
 }
 
 h1 {
@@ -65,6 +82,7 @@ h1 {
 
 section {
     margin-top: 20px;
+    animation: fadeIn 1.5s ease-in-out forwards;
 }
 
 ul {
@@ -88,6 +106,33 @@ th, td {
 }
 
 th {
-    background-color: #3498db;
+    background-color: #3498db85;
+    color: #fff;
+}
+
+.exit-button {
+    text-decoration: none;
+    z-index: 2;
+    background-color: #ff5f56; /* Red color for Mac exit button */
+    color: #000000;
+    border: none;
+    padding: 8px 12px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    left: 150px;
+    border: 2px solid #e0443e; /* Darker red border */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    
+    animation: fadeIn 3.5s ease-in-out forwards;
+}
+
+.exit-button:hover {
+    background-color: #e0443e; /* Darker red on hover */
     color: #fff;
 }
