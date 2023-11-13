@@ -1,9 +1,31 @@
 * {
-    background-color: #3535ac;
-    background-color: #3535ac;
+    
+    
     opacity: 0; /* Устанавливаем начальную прозрачность 0 */
     animation: fadeIn 1.5s ease-in-out forwards; /* Анимация появления */
 }
+body {
+    background-image: url('../../Kahatoon/images/JIHC_Footer.JPG');
+    background-size: cover; /* Растягивает фон, чтобы он покрыл весь экран */
+    background-position: center; /* Центрирует фон по центру экрана */
+    background-repeat: no-repeat; /* Запрещает повторение фона */
+    background-color: violet; /* Цвет фона, который будет виден, если изображение не загрузится или не будет полностью покрывать экран */
+    color: white; /* Цвет текста */
+    font-family: Arial, sans-serif; /* Шрифт текста */    margin: 0; /* Убираем отступы по умолчанию у body */
+    height: 100vh; /* Заполняем высоту всего окна браузера */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 80%;
+  }
+  
+  /* Дополнительные стили для контента, если необходимо */
+  .content {
+    color: #000000; /* Цвет текста белый */
+    padding: 20px; /* Отступы вокруг контента */
+    border: 1px solid #ffffff; /* Белая рамка вокруг контента */
+  }
+  
 
 @keyframes fadeIn {
     from {
@@ -15,27 +37,29 @@
 }
 
 h1 {
-    color: white;
+    margin-left: 25px;
+    color: rgb(0, 0, 0);
     padding-top: 10px;
     text-align: center;
-    font-size: 60px;
+    font-size: 30px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 input {
-    background-color: white;
-    width: 70%;
-    margin-left: 12%;
+    background-color: rgba(128, 128, 128, 0.591);
+    width: 40%;
+    
     font-size: 20px;
     padding: 16px 16px;
     border-radius: 10px;
     border-color: black;
     margin-bottom: 20px;
+    color: #0a0909;
 }
 
 textarea {
     background-color: aliceblue;
-    width: 70%;
-    margin-left: 12%;
+    width: 40%;
+    
     font-size: 20px;
     padding: 16px 16px;
     border-radius: 10px;
@@ -47,7 +71,7 @@ textarea {
 input:focus-within {
     outline: none;
     border-color: rgb(30, 33, 33);
-    border-width: 8px;
+    border-width: 5px;
 }
 
 textarea:focus-within {
@@ -58,28 +82,19 @@ textarea:focus-within {
 
 
 
-.btn1 {
-    background-color: rgb(22, 150, 159);
-    border-radius: 10px;
-    border-color: black;
-    font-size: 22px;
-    padding: 20px 20px;
-    margin-left:  100px;
-    text-decoration: none;
-    color: black;
-    
-    
-}
+
+
 
 .btn2 {
-    background-color: rgb(49, 191, 196);
+    background-color: rgb(0, 0, 0);
     border-radius: 20px;
     border-color: black;
     font-size: 22px;
     padding: 10px 18px;
-    text-align: center;
+    
     display: flex;
-    margin: auto;
+    color: #ffffff;
+    
 }
 
 button:hover {
@@ -93,9 +108,22 @@ button:hover {
 
 .btn1:hover {
     opacity: 88%;
-    font-size: 30px;
+    font-size: 13px;
     transition: 0.5s;
     background-color: aliceblue;
+    color: #000000;
     cursor: pointer;
 
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding:  20px;
+    background-color: #ffffffaf;
+    border-radius: 40px;
+    
+    
 }
