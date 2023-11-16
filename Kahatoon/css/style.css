@@ -118,11 +118,11 @@ hr {
 .navbar-default .navbar-nav li a {
   font-size: 12px;
   letter-spacing: 1px;
-}
+}   
 
 /* home section */
 #home {
-  background: url(../images/best\ photo.jpg) 50% 0 repeat-y fixed;
+  background: url(../images/best\ photo.jpg ) 50% 0 repeat-y fixed;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center;
