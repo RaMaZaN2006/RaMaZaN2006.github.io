@@ -354,7 +354,8 @@ footer {
   color: #ffffff;
   padding-top: 80px;
   padding-bottom: 80px;
-  opacity:80%;
+  opacity:100%;
+  background-color: #202020;
 }
 footer h2 {
   padding-bottom: 14px;

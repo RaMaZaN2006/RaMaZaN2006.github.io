@@ -44,11 +44,16 @@
         
     <h1>Form For</h1>
     <h1>Accepting Applications</h1>
-    
-    <input type="text" name="first" id="" placeholder="First Name" autocomplete="off" required>
-    <input type="text" name="last" id="" placeholder="Last Name" autocomplete="off" required>
-    <input type="email" name="email" id="" placeholder="Email Address" autocomplete="off" required>
-    <textarea name="message" id="" cols="60" rows="5" placeholder="Enter text" autocomplete="off" required></textarea>
+    <br>
+    <div style="display: flex;flex-direction: row;margin-left: 80px;">
+        <input type="text" name="first" id="" placeholder="First Name" class="inputs_1" autocomplete="off" required>
+        
+        <input type="text" name="last" id="" placeholder="Last Name" class="inputs_1" autocomplete="off" required style="margin-left: 20px;">
+    </div>
+    <input type="email" name="email" id="" placeholder="Email Address" class="email_input" autocomplete="off" required>
+    <div style="max-width: 80%;margin-right: 40px;">
+        <textarea name="message" id="" cols="60" rows="5" placeholder="Enter text" autocomplete="off" required></textarea>
+    </div>
     <button type="submit" class="btn2">Send Message</button>
     </form>
 </body>
