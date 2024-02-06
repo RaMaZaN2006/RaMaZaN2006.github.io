@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Swiper Pagination Example</title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <style>
+    /* Оформление контейнера слайдера */
+    .swiper-container {
+      width: 100%;
+      margin: 20px auto;
+    }
+    
+    /* Стили для слайдов */
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #f8f8f8;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+
+<div class="swiper-container">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">Слайд 1</div>
+    <div class="swiper-slide">Слайд 2</div>
+    <div class="swiper-slide">Слайд 3</div>
+    <!-- Добавьте больше слайдов по желанию -->
+  </div>
+  <!-- Добавляем пагинацию -->
+  <div class="swiper-pagination"></div>
+</div>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+  // Инициализация Swiper
+  var swiper = new Swiper('.swiper-container', {
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+  });
+</script>
+
+</body>
+</html>

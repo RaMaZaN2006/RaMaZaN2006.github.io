@@ -200,25 +200,22 @@ window.onload = function() {
         // then we "refresh" and get the chat data from Firebase
         parent.refresh_chat()
       }
-      // Save name. It literally saves the name to localStorage
+      
       save_name(name){
-        // Save name to localStorage
+        
         localStorage.setItem('name', name)
       }
-      // Sends message/saves the message to firebase database
+      
       send_message(message){
         var parent = this
-        // if the local storage name is null and there is no message
-        // then return/don't send the message. The user is somehow hacking
-        // to send messages. Or they just deleted the
-        // localstorage themselves. But hacking sounds cooler!!
+
         if(parent.get_name() == null && message == null){
           return
         }
   
-        // Get the firebase database value
+        
         db.ref('chats/').once('value', function(message_object) {
-          // This index is mortant. It will help organize the chat in order
+          
           var index = parseFloat(message_object.numChildren()) + 1
           db.ref('chats/' + `message_${index}`).set({
             name: parent.get_name(),
@@ -226,14 +223,14 @@ window.onload = function() {
             index: index
           })
           .then(function(){
-            // After we send the chat refresh to get the new messages
+            
             parent.refresh_chat()
           })
         })
       }
-      // Get name. Gets the username from localStorage
+      
       get_name(){
-        // Get the name from localstorage
+        
         if(localStorage.getItem('name') != null){
           return localStorage.getItem('name')
         }else{

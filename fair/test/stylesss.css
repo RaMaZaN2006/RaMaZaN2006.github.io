@@ -1,0 +1,37 @@
+/* Styles for header, sections, footer */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .section1, .section2 {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  /* Apply gradients */
+  .section1 {
+    background: linear-gradient(to bottom, #ffcc00, #ff3300);
+  }
+  
+  /* Add hover effect */
+  .section1:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
