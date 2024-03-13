@@ -1,0 +1,105 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+    margin: 0;
+}
+
+.ahref{
+    border: 0.1rem solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    width: 22.5%;
+}
+
+nav{
+    background-color: black;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.ahref a{
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+
+}
+
+.mes-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 3rem;
+    margin: 0 auto;
+    width: 50%;
+    height: 50rem;
+    border: 1rem solid red;
+    background-color: white;
+}
+
+.abs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.505);
+}
+
+.container{
+    margin: 0 auto;
+    width: 110rem;
+    justify-content: space-between;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.box{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    text-align: center;
+    width: 30rem;
+    height: 30rem;
+    background-color: rgb(255, 255, 255);
+    border: solid 0.1rem red;
+    border-radius: 1rem;
+}
+
+.rectangle{
+    justify-content: space-between;
+    border-radius: 1rem 1rem 0 0;
+    width: 30rem;
+    height: 25rem;
+    background-color: silver;
+    display: flex;
+    flex-direction: row;
+}
+
+.BMW{
+    margin: 0;
+    font-size: 2rem;
+    color: white;
+        width: fit-content;
+    height: fit-content;
+    background-color: blue;
+}
+
+.img{
+    width: 5rem;
+    height: 5rem;
+}
+.price{
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .abs {
+        display: none; /* Adjust padding for smaller screens */
+    }
+}

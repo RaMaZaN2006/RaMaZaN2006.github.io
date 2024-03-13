@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .row{
+            display: flex;
+            flex-direction: row;
+        }
+
+        .table1{
+            align-items: center;
+            border: solid 1px black;
+            width: 50%;
+            height: 370px;
+            max-height: 370px;
+        }
+
+        .table2{
+            align-items: center;
+            border: solid 1px black;
+            border-left: 0px;
+            width: 50%;
+            height: 370px;
+            max-height: 370px;
+        }
+
+        .blue-table{
+            margin-bottom: 10px;
+            padding: 5px;
+            display: flex;
+            flex-direction: row;
+            width: 75%;
+            height: 105px;
+            max-height: 100px;
+            border: solid 1px cyan;
+
+        }
+
+        .rectangle{
+            height: 100px;
+            width: 100px;
+            background-color: gray;
+
+        }
+
+        .bl-txt{
+            max-height: 90px;
+            height: 100px;
+            display: flex;
+            flex-direction: column;
+
+
+        }
+
+        .no-mrg{
+            font-size: 20px;
+            margin: 0px;
+        }
+
+        .blue-table2{
+            border: solid 2px cyan;
+            height: 50px;
+            width: 75%;
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .price{
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        @media screen and (max-width: 400px) {
+            
+            .table1{
+                
+            }
+
+            .blue-table2{
+                height: 30px;
+            }
+            a{
+                font-size: 10px;
+            }
+            .no-mrg{
+                font-size: 14.5px;
+            }
+            .price{
+                font-size: 14px;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="table1">
+            <div class="blue-table">
+                <div class="rectangle"></div>
+
+                <div class="bl-txt">
+
+                    <div>
+                        <a href="" class="no-mrg">Mercedes C100</a>
+                        <p class="no-mrg">в хорошем состоянии</p>
+                    </div>
+
+                    <p class="price">10.000$</p>
+                </div> <!-- bl-txt -->
+            </div><!-- blue table -->
+
+            <div class="blue-table">
+                <div class="rectangle"></div>
+
+                <div class="bl-txt">
+
+                    <div>
+                        <a href="" class="no-mrg">Mercedes C100</a>
+                        <p class="no-mrg">в хорошем состоянии</p>
+                    </div>
+
+                    <p class="price">10.000$</p>
+                </div> <!-- bl-txt -->
+            </div><!-- blue table -->
+
+            <div class="blue-table">
+                <div class="rectangle"></div>
+
+                <div class="bl-txt">
+
+                    <div>
+                        <a href="" class="no-mrg">Mercedes C100</a>
+                        <p class="no-mrg">в хорошем состоянии</p>
+                    </div>
+
+                    <p class="price">10.000$</p>
+                </div> <!-- bl-txt -->
+            </div><!-- blue table -->
+        </div>
+
+        <div class="table2">
+
+            <div class="blue-table2">
+                <a href="">Mercedes</a>
+                <p class="price">10.000$</p>
+            </div>
+
+            <div class="blue-table2">
+                <a href="">Mercedes</a>
+                <p class="price">10.000$</p>
+            </div>
+
+            <div class="blue-table2">
+                <a href="">Mercedes</a>
+                <p class="price">10.000$</p>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

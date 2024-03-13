@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .ahref{
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 5rem;
+            width: 22.5%;
+            border: 0.1rem solid red;
+            list-style-type: none;
+        }
+        .ahref a{
+            color: white;
+            text-decoration: none;
+            font-size: 2rem;
+        }
+        nav{
+            height: 5rem;
+            background-color: black;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container{
+            margin: 0 auto;
+        }
+
+        .box{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            width: 30rem;
+            height: 30rem;
+            border: 0.2rem solid red;
+            border-radius: 1rem;
+        }
+        .rectangle{
+            background-color: silver;
+            width: 30rem;
+            height: 25rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+        }
+        .rectangle p{
+            margin: 0;
+            font-size: 2rem;
+            background-color: blue;
+            color: white;
+            width: fit-content;
+            height: fit-content;
+        }
+        .rectangle img{
+            height: 5rem;
+            width: 5rem;
+        }
+        .price{
+            font-size: 2rem;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <li class="ahref"><a href="">Home</a></li>
+        <li class="ahref"><a href="">Home</a></li>
+        <li class="ahref"><a href="">Home</a></li>
+        <li class="ahref"><a href="">Home</a></li>
+    </nav>
+
+    <div class="container">
+        <div class="box">
+            <div class="rectangle">
+                <p>BMW X6</p>
+                <img src="../5-site/img/1413925.png" alt="">
+            </div>
+            <p class="price">10.000$</p>
+        </div>
+    </div>
+</body>
+</html>

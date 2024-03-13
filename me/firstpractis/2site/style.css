@@ -1,0 +1,19 @@
+.img1{
+    width: 410px;
+    height: 400px;
+    padding: 10px 0px;
+
+}   
+
+table {
+    width: 20%;
+
+  }
+
+
+
+  th, td {
+    font-size: 20px;
+    padding: 10px;
+    text-align: left; 
+  }

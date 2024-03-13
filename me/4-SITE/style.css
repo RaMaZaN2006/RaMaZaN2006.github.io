@@ -1,0 +1,55 @@
+.abc {
+    padding: 20px;
+    color: aliceblue;
+    border-radius: 50%;
+    padding-top: 5px;
+    margin: 5px;
+    padding: 10px;
+
+    background-color: brown;
+}
+
+.letter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.red-container{
+    font-size: 30px;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 750px;
+    width: 50%;
+    background-color: brown;
+    float: left;
+}
+.Web-txt{
+    font-family: sans-serif;
+    font-size: 35px;
+    margin: 10px;
+}
+.div-row1-p2{
+    margin-bottom: 0px;
+}
+.div-row1-p3{
+    margin-top: 0px;
+}
+.p-secondary{
+    font-size: 20px;
+}
+.text-container1{
+    float: right;
+    text-align: center;
+}
+.ul1{
+    text-align: left;
+}
+.text-container1{
+    max-width: 100%;
+    width: 50%;
+    text-align: center;
+}

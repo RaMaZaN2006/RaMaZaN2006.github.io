@@ -1,0 +1,22 @@
+table {
+    border: 2px solid #140c0c;
+    background-color: rgba(0, 255, 255, 0.377);
+    padding: 0px 0px 30px;
+}
+th{
+    height: 100px;
+}
+td {
+    padding: 10px;
+    border: 1px solid #040101;
+    text-align: left;
+}
+.img_td{
+    padding: 10px;
+    border: 1px solid #040101;
+    padding: 0px 0px 40px;
+    
+}
+img { 
+    max-width: 100%;
+}

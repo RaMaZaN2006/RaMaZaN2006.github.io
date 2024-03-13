@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            margin: 0px;
+            padding: 0px;
+            height: 100vh;
+        }
+        .navbar li{
+            padding: 1% 0px;
+            display: flex;
+            justify-content: center;
+            max-width: 25%;
+            width: 25%;
+            background-color: gray;
+            text-decoration: none;
+            list-style-type: none;
+        }
+        .navbar {
+            display: flex;
+            justify-content: center;
+            float: left;
+        }
+
+        .navbar li:hover {
+            background-color: red;
+        }
+        .navbar li:hover a {
+            color: white;
+            background-color: red;
+        }
+
+        .navbar a{
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            float: left;
+        }
+
+        .footer{
+            display: flex;
+            flex-direction: column;
+            position: fixed;
+            justify-content: center;
+            bottom: 0;
+            width: 100%;
+            background-color: #000000;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            
+        }
+
+        .gray-rec{
+
+float: left;
+font-size: 30px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+height: 200px;
+width: 33.3%;
+background-color: gray;
+}
+
+.div-search{
+align-items: center;
+height: 200px;
+gap: 1%;
+display: flex;
+flex-direction: row;
+justify-content: center;
+float: right;
+/* background-color: aquamarine; */
+width: 66.7%;
+}
+
+.div-search input{
+height: 10%;
+width: 35%;
+}
+
+        .column{
+            justify-content: center;
+            gap: 15%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+
+            padding: 1%;
+        }
+        .block{
+            margin-top: 3%;
+            border: solid 3px red;
+            border-radius: 9px;
+            width: 300px;
+            max-width: 320px;
+            max-height: 500px;
+            height: auto;
+
+
+        }
+        .rectanglebox{
+            display: flex;
+            background-color: gray;
+            width: 300px;
+            max-width: 300px;
+            height: 300px;
+        }
+
+        .toy{
+            width: 300px;
+            max-width: 300px;
+            border-radius: 8px 8px 0px 0px;
+            color: white;
+            text-align: center;
+            font-size: 40px;
+            background-color: blue;
+            margin: 0px;
+            height: 50px;
+        }
+
+
+
+        .price1{
+            width: 300px;
+            max-width: 300px;
+            border-radius: 0px 0px 9px 9px;
+            text-align: center;
+            font-size: 45px;
+            height: 60px;
+            background-color: white;
+            margin: 0px;
+        }
+
+        .Row-container{
+            justify-content: center;
+            gap: 15%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .white-space{
+            height: 250px;
+        }
+
+        .footer{
+            height: 50px;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: rgb(0, 0, 0);
+            color: white;
+            text-align: center;
+        }
+
+
+        
+
+
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar">
+        <li><a href="">Home</a></li>
+        <li><a href="">Contacts</a></li>
+        <li><a href="">About Us</a></li>
+        <li><a href="">Comitte</a></li>
+    </nav>
+
+
+    <div style="float: left;">
+        <div class="gray-rec">
+            <p>200 x 100</p>
+        </div>
+
+        <div class="div-search">
+            <input type="text" name="" id="">
+            <button>Submit</button>
+        </div> <!-- div search -->
+    </div>
+
+    <div class="bigcolun">
+        <div class="Row-container">
+            <div class="column">
+                <div class="block">
+                    <p class="toy">Toyota Avenis</p>
+                    <div class="rectanglebox"></div> <!-- rectanglebox -->
+                    <p class="price1">50.000$</p>
+                </div> <!-- block -->
+
+                <div class="block">
+                    <p class="toy">Toyota Avenis</p>
+                    <div class="rectanglebox"></div> <!-- rectanglebox -->
+                    <p class="price1">50.000$</p>
+                </div> <!-- block -->
+
+                <div class="block">
+                    <p class="toy">Toyota Avenis</p>
+                    <div class="rectanglebox"></div> <!-- rectanglebox -->
+                    <p class="price1">50.000$</p>
+                </div> <!-- block -->
+
+                <div class="block">
+                    <p class="toy">Toyota Avenis</p>
+                    <div class="rectanglebox"></div> <!-- rectanglebox -->
+                    <p class="price1">50.000$</p>
+                </div> <!-- block -->
+
+                <div class="block">
+                    <p class="toy">Toyota Avenis</p>
+                    <div class="rectanglebox"></div> <!-- rectanglebox -->
+                    <p class="price1">50.000$</p>
+                </div> <!-- block -->
+
+                <div class="block">
+                    <p class="toy">Toyota Avenis</p>
+                    <div class="rectanglebox"></div> <!-- rectanglebox -->
+                    <p class="price1">50.000$</p>
+                </div> <!-- block -->
+
+        </div> <!-- row container -->
+    </div>
+
+    <div class="white-space"></div>
+    <footer class="footer">@copy: 2017 Wheels.kz All cars</footer>
+
+
+    <script src="../../JavaScript/1.js"></script>
+</body>
+</html>
